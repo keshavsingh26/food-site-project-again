@@ -1,0 +1,340 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .top-container{
+    background: url(spaghetti-1932466_1920.jpg) no-repeat center center/cover;
+    padding:0.0625rem 0.0625rem;
+    height:31.25rem;
+    opacity:0.9;
+}
+
+
+.navbar{
+    /* border: 2px solid red;   */
+    height:6.25rem;
+    width: 100vw;
+    background-color:#f1f7f3;
+    display: flex;
+    
+    position: fixed;
+    
+    
+}
+.navbar img{
+    width:2.5rem;
+    margin: 1.5rem 0.3125rem;
+    /* padding: 10px 15px;  */
+    border: radius 2.5rem;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 2.4375rem;
+    padding-left: 0;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    margin:0.625rem 0.9375rem ;
+    padding:0.625rem;
+    color:darkblue;
+    border-radius: 0.625rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.5rem;
+}
+.navbar ul li :hover{
+    background-color: rgb(102, 102, 218);
+}
+
+.content1{
+    /* border: 2px solid blue;   */
+    height:18.75rem;
+    width:43.75rem;
+    margin: auto;
+    margin-top:8.75rem;
+    /* color:white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .para1{
+    width:636px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18rem;
+
+}
+.para2{
+    width:342px;
+    margin: 0;
+    font-size: 18rem;
+} */
+
+.content1 h1 {
+    font-size: 2rem;
+    text-align: center;
+    color:white;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+}
+.content1 p {
+    color:white;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+    margin:0.9375rem 0.3125rem;  
+    padding:0.625rem 1.1875rem;  
+    color: #ef2a09;
+    background-color: #daefd2; 
+    cursor: pointer;
+    border-radius:0.9375rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.middle-container {
+    height:25rem;  
+    background-color:#eef5ef;
+    width: 100%;
+    
+    
+}
+.middle-container h1 {
+    color:black;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding:0.9375rem;
+}
+#box123{
+    /* height: 500px;  */
+    /* width:1250px;  */
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: space-between;
+}
+#box-1{
+    height:16.25rem;
+    width: 23.4375rem;
+    border:0.125rem solid gray;
+    margin:0.625rem;
+    border-radius:1.875rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:0.625rem;
+    /* padding-bottom: 20px; */
+    background-color: #f2eae5;
+
+}
+#box-2{
+    height:16.25rem;
+    width:23.4375rem;
+    border:0.125rem solid gray;
+    margin:0.625rem;
+    border-radius:1.875rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:0.625rem;
+    /* padding-bottom: 20px; */
+    background-color: #f2eae5;
+
+}
+#box-3{
+    height:16.25rem;
+    width:23.4375rem;
+    border:0.125rem solid gray;
+    margin:0.625rem;
+    border-radius:1.875rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top:0.625rem;
+    /* padding-bottom: 20px; */
+    background-color: #f2eae5;
+
+
+}
+#box-1 img {
+    width:6.5625rem;
+    border-radius:3.125rem;
+   
+}
+#box-1 h3 {
+    padding-top:0.625rem;
+    padding-bottom: 0.625rem;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+#box-1 p {
+    line-height:1;
+    font-size:0.9375rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#box-2 img {
+    width:6.5625rem;
+    border-radius:3.125rem;
+    
+}
+#box-2 h3 {
+    padding-top:0.625rem;
+    padding-bottom:0.625rem;
+    font-family: 'Bree Serif', serif;
+} 
+#box-2 p {
+    line-height:1;
+    font-size:0.9375rem;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#box-3 img {
+    width:5rem;
+    border-radius:2.5rem;
+    
+   
+}
+#box-3 h3 {
+    padding-top:0.625rem;
+    padding-bottom:0.625rem;
+    font-family: 'Bree Serif', serif;
+} 
+#box-3 p {
+    line-height:1;
+    font-size:0.9375rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.bottom-container {
+    height:18.75rem;  
+   background-color: #efe9de;  
+   
+    width: 100%;
+    
+    
+    
+}
+
+.bottom-container h1 {
+    color:black;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding:0.9375rem;
+    font-weight: bold;
+}
+#images{
+    height:37.5rem;  
+    width:78.125rem;  
+    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: center;
+    
+} 
+.img1{
+    width:11.875rem;
+    height:9.375rem;
+    margin-top:1.5rem;
+    margin-right:1.5rem;
+}
+.img2{
+    width:11.875rem;
+    height:9.375rem;
+    margin-top:1.5rem;
+    margin-right:1.5rem;
+}
+
+.img3{
+    margin-top:1.5rem;
+    width:11.875rem;
+    height:9.375rem;
+}
+.last-container {
+    height:28.125rem;  
+    background: url(pexels-ella-olsson-1640777.jpg) no-repeat center center/cover;
+    opacity: 0.7;
+    /* background-color:#eef5ef;  */
+    width: 100%;
+    
+    
+}
+.last-container h1 {
+    color:black;
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    padding:0.9375rem;
+}
+#contact-form{
+    height:25rem;
+    width:75rem;
+    /* border: 2px solid red;  */
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.form-group {
+    margin: 0;
+    padding:0;
+    
+}
+.form-group input{
+    margin-left: 10.625rem;
+    padding-right:7.375rem;
+    padding-top:0.1875rem;
+    padding-bottom:0.1875rem;
+    border-radius:0.3125rem;
+    
+}
+.form-group textarea{
+    margin-left:9.0625rem;
+    padding-right:0.875rem;
+    border-radius:0.3125rem;
+}
+.name {
+    padding-right:4.1875rem;
+}
+.email {
+    padding-right:4.1875rem;
+}
+.message {
+    padding-right:0.5rem;
+}
+.submit-button {
+    margin-top:0.3125rem;
+    margin-right:1.5rem;
+    padding-top:0.1875rem;
+    padding-bottom:0.25rem;
+    padding-right:0.125rem;
+    
+    
+}
+footer{
+    background-color: black;
+    height:2.1875rem;
+    color: white;
+    text-align: center;
+    font-size:0.6875rem;
+    
+    padding-top:0.9375rem;
+    
+}
+    
+
+
+
+
+
+
+   
